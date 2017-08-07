@@ -1,0 +1,12 @@
+import localService from './local-service';
+exports.addWalletItems = localService.addWalletItems;
+exports.cancelCollectionSlot = localService.cancelCollectionSlot;
+exports.cancelContract = localService.cancelContract;
+exports.cancelDeliverySlot = localService.cancelDeliverySlot;
+exports.deleteWalletItems = deleteWalletItems;
+exports.getPersonalInfo = localService.getPersonalInfo;
+exports.getAddresses = localService.getAddresses;
+exports.getCollectionAddresses = localService.getCollectionAddresses;
+exports.getGlobalSubstitutionDetails = localService.getGlobalSubstitutionDetails;
+exports.restoreCoupons = localService.restoreCoupons;
+exports.sendNotification = localService.sendNotification;

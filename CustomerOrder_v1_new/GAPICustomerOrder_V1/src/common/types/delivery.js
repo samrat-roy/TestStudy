@@ -1,0 +1,22 @@
+const Delivery = {
+	'GroupId': '1',
+	'Option': null,
+	'SlotState': null,
+	'SlotType':  null,
+	'StoreId':  null,
+	'SlotStartDateTime':  null,
+	'SlotEndDateTime':  null,
+	'SlotCutoffDateTime': null,
+	'SlotReservationExpiryDateTime': null,
+	'SlotId': null,
+	'ReservationId': null,
+	'IsGreen': null,
+	'IsActiveSlotType': null,
+	'Location': null,
+	'WithBag': null,
+	'Notes': '',
+	'Addresses':  null,
+	'Charges':  null,
+	'FulfillmentOptions': null,
+};
+export default Delivery;

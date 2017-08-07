@@ -1,0 +1,10 @@
+import localRepository from './local-repository';
+exports.getBaskets = localRepository.getBaskets;
+exports.getContractId = localRepository.getContractIdForOrderId;
+exports.getContract = localRepository.getContract;
+exports.getOrderDiff = localRepository.getOrderDiff;
+exports.getOrders = localRepository.getOrders;
+exports.getSubstitutionDetails = localRepository.getSubstitutionDetails;
+exports.getPostCodesBagCharges = localRepository.getPostCodesBagCharges;
+exports.getContractHeaders = localRepository.getContractHeaders;
+exports.removeUnusedSmartCoupons = localRepository.removeUnusedSmartCoupons;
